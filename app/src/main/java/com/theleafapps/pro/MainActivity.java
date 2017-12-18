@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button play_button, pause_button, volup_button, voldown_button,stop_button;
+    Button play_button, pause_button, volup_button, voldown_button, stop_button;
     MediaPlayer mediaPlayer;
 
     @Override
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         voldown_button = (Button) findViewById(R.id.volume_down_button);
         stop_button = (Button) findViewById(R.id.stop_button);
 
-        mediaPlayer = MediaPlayer.create(this,R.raw.music);
+        mediaPlayer = MediaPlayer.create(this, R.raw.music);
 
 
         play_button.setOnClickListener(new View.OnClickListener() {
