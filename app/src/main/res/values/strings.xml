@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">udacity-media-player-app</string>
+    <string name="app_title">Udacity Media Player</string>
+    <string name="play_button_text">Play</string>
+    <string name="pause_button_text">Pause</string>
+    <string name="volume_up_button_text">Volume Up</string>
+    <string name="volume_down_button_text">Volume Down</string>
+    <string name="image_view_description">Music Logo</string>
+    <string name="stop_button_text">Stop</string>
+
 </resources>
